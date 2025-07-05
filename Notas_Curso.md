@@ -71,24 +71,24 @@ Esta combinación ofrece ventajas significativas en cuanto a rendimiento, facili
 
 Es fundamental definir claramente entidades y sus estructuras de datos. Las principales entidades identificadas fueron: curso, clase y profesor.
 
-### ¿Qué detalles incluir en cada entidad?
+### ¿Qué detalles incluir en cada entidad?  
 
 - **Curso:**
 - ID numérico autoincremental.
 - Nombre, descripción, thumbnail y slug.
 - ID vinculado a docentes.
-- Campos de auditoría: creación, edición y eliminación lógica (`deletedat`).
+- Campos de auditoría: creación, edición y eliminación lógica (`deletedat`).  
 
 - **Clase:**
 - ID numérico.
 - Pertenece a un curso específico (course ID).
 - Nombre, descripción, URL del video, slug.
-- Campos de auditoría similares a los del curso.
+- Campos de auditoría similares a los del curso.  
 
 - **Profesor:**
 - ID numérico.
 - Nombre y correo electrónico.
-- Campos de auditoría, siguiendo el estándar definido en las otras entidades.
+- Campos de auditoría, siguiendo el estándar definido en las otras entidades.  
 
 **¿Qué endpoints son necesarios para la API?**
 
