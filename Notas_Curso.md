@@ -131,3 +131,56 @@ Este criterio y planificación inicial es suficiente para establecer una base s�
 Un slug es una cadena de texto amigable usada para identificar de forma única cursos o clases en URLs, generalmente derivada del nombre original, transformada a minúsculas, sin espacios ni caracteres especiales.
 
 Por ejemplo el slug para "introduccion-a-la-programacion-con-python" podría ser "introduccion-a-la-programacion-con-python".
+
+## Clase 3 - Configuración de contexto y reglas en Cursor para FastAPI
+
+**Resumen:**
+
+Configurar correctamente el contexto y las reglas de un proyecto es esencial al trabajar con inteligencia artificial para generar código efectivo. En este caso, aprenderás cómo establecer la estructura inicial del backend con FastAPI, Python y Postgres en la plataforma Cursor, asegurando un ambiente claro y simplificado.
+
+**¿Por qué es importante el archivo README en markdown?**
+
+El archivo README actúa como el contexto principal que explica el proyecto en un lenguaje accesible. Este documento no solo facilita que nuevos desarrolladores entiendan rápidamente el funcionamiento y propósito del proyecto, sino que también permite a la inteligencia artificial interpretar claramente la base sobre la cual generará el código.
+
+### **¿Qué debe contener el README del backend?**
+
+Para este proyecto específico, PlatziFlix, la descripción principal define que es una plataforma online de cursos sencilla y directa, enfocada en funcionalidades básicas. Además, especifica detalladamente el stack tecnológico:
+
+- **Lenguaje principal**: Python.
+- **Framework web**: FastAPI.
+- **Base de datos relacional**: Postgres.
+- **Contenedorización**: Docker.
+
+La arquitectura del backend incluye el uso de FastAPI para exponer y consumir información almacenada en una base de datos Postgres hacia aplicaciones web y móviles.
+
+**¿Qué rol juegan las reglas en Cursor para el proyecto?**
+
+Definir reglas en Cursor ayuda a mantener un estándar claro durante el desarrollo, facilitando la generación precisa de código mediante inteligencia artificial. Las reglas pueden configurarse para ser:
+
+- Siempre aplicables.
+- Asociadas automáticamente a patrones específicos de archivo.
+- Solicitadas manualmente por el desarrollador o el agente de Cursor.
+
+### **¿Cómo crear y aplicar reglas de proyecto en Cursor?**
+
+Para configurar reglas:
+
+1. Ingresa a la sección project rules en los ajustes de Cursor.
+2. Define el nombre que representará claramente el propósito de la regla, como "FastAPI".
+3. Decide el tipo de regla, como aquellas que se auto-agregan por tipo de archivo.
+4. Utiliza recursos disponibles como cursor.directory para encontrar reglas creadas por la comunidad que calcen con tus necesidades.
+
+La ventaja principal es adaptar rápidamente reglas ya probadas por otros desarrolladores para diferentes contextos, acelerando el desarrollo y manteniendo calidad y simplicidad en el código generado.
+
+**¿Cuáles son las recomendaciones principales antes de generar código con Cursor?**
+
+- Crear un README claro y detallado en formato markdown que describa perfectamente la idea del proyecto con términos fácilmente comprensibles.
+- Establecer reglas precisas en Cursor, preferiblemente utilizando o adaptando reglas ya diseñadas por la comunidad.
+- Garantizar que estas reglas y contextos estén correctamente configurados antes de iniciar la generación de código.
+
+Te animo a ajustar estas reglas según consideres necesario para optimizar aún más tu proceso de desarrollo con inteligencia artificial, y compártelas posteriormente para seguir enriqueciendo este aprendizaje en comunidad.
+
+**Anexo:**
+
+- [Documentación de reglas](https://docs.cursor.com/context/rules)
+- [Reglas creadas por la comunidad](https://cursor.directory/rules/)
